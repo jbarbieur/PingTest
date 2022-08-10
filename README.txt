@@ -1,1 +1,4 @@
 This is a pair of scripts designed to test ping replies from various points across a network.  For example, it can be used to test where a VPN connection is dropping.  Both scripts should be put in C:\temp on the machine to be tested.  Edit the IP addresses for Firewall and DC (DC should be a point across the VPN if testing VPN connection).  Double click pingstarter.bat to launch 3 windows (a constant ping to each of the IPs).  Ask the user to let you know when the connection drops again; failures will be logged to individual text files in C:\temp that can be used for diagnostics.
+
+
+Credit to Alex Nocenti for the original ping script - I just wrote the wrapper to launch multiples.
